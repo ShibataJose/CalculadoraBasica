@@ -12,7 +12,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/nazareconfusa"
+        android:background="@color/back_color"
         android:padding="2dp">
 
         <TextView
@@ -23,7 +23,7 @@
             android:layout_marginTop="32dp"
             android:fontFamily="sans-serif-thin"
             android:text="Valor 1"
-            android:textColor="@android:color/background_light"
+            android:textColor="@android:color/black"
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
@@ -37,7 +37,7 @@
             android:layout_marginTop="16dp"
             android:fontFamily="sans-serif-thin"
             android:text="Valor 2"
-            android:textColor="@android:color/background_light"
+            android:textColor="@android:color/black"
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
@@ -80,7 +80,7 @@
             android:layout_marginTop="16dp"
             android:fontFamily="sans-serif-thin"
             android:text="Calculadora"
-            android:textColor="@android:color/background_light"
+            android:textColor="@android:color/black"
             android:textSize="30sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -94,7 +94,7 @@
             android:layout_marginTop="24dp"
             android:fontFamily="sans-serif-thin"
             android:text="Operações"
-            android:textColor="@android:color/background_light"
+            android:textColor="@android:color/black"
             android:textSize="20sp"
             android:textStyle="bold|italic"
             app:layout_constraintEnd_toEndOf="parent"
