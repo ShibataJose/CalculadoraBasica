@@ -83,23 +83,22 @@ public class MainActivity extends AppCompatActivity {
 
     private boolean dadosVerificados() {
 
-        boolean retorno = false;
+        boolean retorno;
 
-        if (!TextUtils.isEmpty(valor1.getText().toString()) || !TextUtils.isEmpty(valor2.getText().toString())) {
+        if (!TextUtils.isEmpty(valor1.getText().toString()) && !TextUtils.isEmpty(valor2.getText().toString())) {
             retorno = true;
         }
-        else if(TextUtils.isEmpty(valor1.getText().toString()) || TextUtils.isEmpty(valor2.getText().toString())){
+        else if(TextUtils.isEmpty(valor1.getText().toString()) && TextUtils.isEmpty(valor2.getText().toString())){
             valor1.setError("*");
             valor1.requestFocus();
             valor2.setError("*");
-            valor2.requestFocus();
             retorno = false;
         }
-        if(TextUtils.isEmpty(valor1.getText().toString())){
+        else if(TextUtils.isEmpty(valor1.getText().toString())){
             valor1.setError("*");
             valor1.requestFocus();
             retorno = false;
-        }else if(TextUtils.isEmpty(valor2.getText().toString())){
+        }else{
             valor2.setError("*");
             valor2.requestFocus();
             retorno = false;
