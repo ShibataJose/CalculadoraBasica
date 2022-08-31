@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
         if(verificaDados){
             double num1 = Double.valueOf(valor1.getText().toString());
             double num2 = Double.valueOf(valor2.getText().toString());
-            //double resultadoSoma = operacoes.soma(num1,num2);
             System.out.println(operacoes.soma(num1,num2));
             campoResultado.setText(""+operacoes.soma(num1,num2));
         }
