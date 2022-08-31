@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
         if(verificaDados){
             double num1 = Double.valueOf(valor1.getText().toString());
             double num2 = Double.valueOf(valor2.getText().toString());
-            //double resultadoSoma = operacoes.soma(num1,num2);
             System.out.println(operacoes.soma(num1,num2));
             campoResultado.setText(""+operacoes.soma(num1,num2));
         }
@@ -44,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
         if(verificaDados) {
             double num1 = Double.valueOf(valor1.getText().toString());
             double num2 = Double.valueOf(valor2.getText().toString());
-            System.out.println(operacoes.subtracao(num1, num2));
             campoResultado.setText("" + operacoes.subtracao(num1, num2));
         }
     }
@@ -54,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
         if(verificaDados) {
             double num1 = Double.valueOf(valor1.getText().toString());
             double num2 = Double.valueOf(valor2.getText().toString());
-            System.out.println(operacoes.multiplicacao(num1, num2));
             campoResultado.setText("" + operacoes.multiplicacao(num1, num2));
         }
     }
@@ -65,7 +62,6 @@ public class MainActivity extends AppCompatActivity {
             double num1 = Double.valueOf(valor1.getText().toString());
             double num2 = Double.valueOf(valor2.getText().toString());
             double resultadoDiv = operacoes.divisao(num1, num2);
-            System.out.println(resultadoDiv);
             campoResultado.setText(Double.toString(resultadoDiv));
         }
     }
