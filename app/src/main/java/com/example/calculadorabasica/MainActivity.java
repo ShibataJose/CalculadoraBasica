@@ -76,7 +76,6 @@ public class MainActivity extends AppCompatActivity {
             double num1 = Double.valueOf(valor1.getText().toString());
             double num2 = Double.valueOf(valor2.getText().toString());
             double resultadoExpo = operacoes.exponenciacao(num1, num2);
-            System.out.println(resultadoExpo);
             campoResultado.setText("" + resultadoExpo);
         }
     }
