@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">calculadoraBasica</string>
+    <string name="app_Titulo">Calculadora</string>
+    <string name="app_Text1">Valor 1</string>
+    <string name="app_Text2">Valor 2</string>
+    <string name="app_Resultado"> </string>
+    <string name="app_Text3">Operações</string>
+    <string name="app_BotaoAdc">Adição</string>
+    <string name="app_BotaoSub">Subtração</string>
+    <string name="app_BotaoMult">Multiplicação</string>
+    <string name="app_BotaoDiv">Divisão</string>
+    <string name="app_BotaoExpo">Exponenciação</string>
 </resources>
